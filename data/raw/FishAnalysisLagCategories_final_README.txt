@@ -1,0 +1,5 @@
+Source: "Impact of El Niño on Environmental Mercury in Madre de Dios, Peru"
+Summary: "El Nino Study Description- This is one of the first studies to investigate the impact of El Niño on environmental mercury concentrations. This study found that El Niño has a large effect in increasing fish tissue mercury concentrations."
+HG_column: "HgAvgFish (ppm)"
+HG_sample_type: ""
+HG_units: "ppm"
