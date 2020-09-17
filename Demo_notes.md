@@ -6,6 +6,24 @@ Date: Fall 2020
 
 [TOC]
 
+
+
+## Questions/Priorities
+
+* **Getting data into AGOL**
+* **Managing data in AGOL**
+  * Metadata | editing | visualizing | sharing
+* **Creating a Map in AGOL**
+  * Symbolizing
+  * Finding and adding additional layers
+  * Visualizations
+* **Analyzing data in AGOL**
+  * Outlier analysis
+* **Working with data in Python**
+* **Working with data in Insights**
+
+
+
 ## 1. Loading csv files to ArcGIS Online (AGOL)
 
 * Log into AGOL, navigate to Content tab
@@ -63,6 +81,7 @@ Date: Fall 2020
   * Close data selection by clicking `←`
   * Symbolize the layers.
 * Select Add > Search for Layers
+  * Search for "Peru, metalogenetico"; filter for feature layers
   * In the search box, enter `92f3ea2f1b5647d891df96f5e47b2af8`
   * Click the + to add this layer to your existing map.
   * Click the back arrow ← to navigate back to the map
