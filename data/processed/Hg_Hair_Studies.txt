@@ -1,5 +1,0 @@
-Source: "Impact of El Niño on Environmental Mercury in Madre de Dios, Peru"
-Summary: "Combined Hair studies: HUNT.csv + IOH.csv + RioMDD.csv datsets"
-HG_column: "HAIR_HG"
-HG_sample_type: ""
-HG_units: na
