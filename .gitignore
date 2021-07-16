@@ -4,3 +4,8 @@ scratch/*
 *.lnk
 ~$*.xlsx
 src/.ipynb_checkpoints/*
+.Rproj.user
+.Rhistory
+
+docs/demo.md
+docs/Mercury Map Presentation for MINAM.pptx
