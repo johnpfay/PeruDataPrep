@@ -1,0 +1,43 @@
+---
+title: "R Notebook"
+output: html_notebook
+editor_options: 
+  chunk_output_type: console
+---
+
+
+
+```{r}
+getwd()
+
+library(tidyverse)
+library(sf)
+library(mapview)
+library(leaflet)
+
+sf_data <- read_csv('./Peru/MasterDataMercury_Final.csv',
+                    col_types = cols(
+                      Author = col_factor(),
+                      `Sample type` = col_factor(),
+                      Species = col_factor(),
+                      `Mercury type` = col_factor(),
+                      Sex = col_factor()
+                    ),
+                    locale = locale(encoding = 'ISO-8859-1')) %>% 
+  st_as_sf(coords = c('Longitude (X)','Latitude (Y)'),
+           crs = 4326)
+
+colnames(sf_data)
+
+
+
+```
+
+```{r}
+mapview(sf_data %>% filter(), cex = "Mercury concentration (ppm)")
+```
+
+```{r}
+
+```
+
